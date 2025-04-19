@@ -90,14 +90,15 @@ let currentPlayer = 'X';
         localStorage.setItem('darkMode', 'true');
       }
     }
-   
+
     function enableDarkMode() {
       document.body.classList.add('dark-theme');
-      themeToggle.textContent = '🌙 Dark Mode'';
+      themeToggle.textContent = '🌙 Dark Mode';
     }
- function disableDarkMode() {
+
+    function disableDarkMode() {
       document.body.classList.remove('dark-theme');
-      themeToggle.textContent = '☀️ Light Mode;
+      themeToggle.textContent = '☀️ Light Mode';
     }
 
     // Game functions
